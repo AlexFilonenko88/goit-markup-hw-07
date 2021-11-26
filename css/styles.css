@@ -355,7 +355,7 @@ label {
   padding-bottom: 94px;
 }
 
-.button {
+.button-hero__modal {
   margin-top: 0px;
 
   min-width: 200px;
@@ -374,16 +374,18 @@ label {
   letter-spacing: 0.06em;
 
   border: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.button-hero__modal:hover,
+.button-hero__modal:focus {
   background-color: #188ce8;
 }
 
-.button {
+/* .button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .button-portfolio-first {
   min-width: 73px;
@@ -460,7 +462,7 @@ label {
 
 /* Наши предложения */
 
-.offers-container-list {
+.offers-title__list {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -469,7 +471,7 @@ label {
   margin-bottom: 0;
 }
 
-.offers-list {
+.offers-list__text {
   margin-top: 10px;
   margin-bottom: 0px;
 
@@ -480,16 +482,16 @@ label {
   line-height: 1.71;
 }
 
-.offers-list-nav {
+.offers-list__navigation {
   margin-right: 30px;
   width: 270px;
 }
 
-.offers-list-nav:last-child {
+.offers-list__navigation:last-child {
   margin-right: 0;
 }
 
-.icon-list {
+.offers-icon__list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -499,7 +501,7 @@ label {
   margin-bottom: 30px;
 }
 
-.offers-list-title {
+.offers-list__title {
   display: flex;
   align-items: center;
   margin: 0;
@@ -683,26 +685,27 @@ label {
   display: flex;
 }
 
-.list-works-img,
+.list-works__image,
 .list-teams-border {
   margin-right: 30px;
 }
 
-.list-works-img:last-child {
+.list-works__image:last-child {
   margin-right: 0;
 }
-.list-works-img {
+
+.list-works__image {
   position: relative;
 }
 
-.works-img-block {
+.works-image__wrapper {
   position: absolute;
   width: 100%;
   height: 70px;
   bottom: 0;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.works-img-text {
+.works-image__title {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 14px;
