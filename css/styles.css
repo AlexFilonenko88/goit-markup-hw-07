@@ -636,15 +636,6 @@ label {
   margin-right: 0;
 }
 
-.customers-list-div {
-  margin: 0;
-  padding: 0;
-}
-
-.customers-list-img {
-  margin: 0;
-}
-
 /* Футер */
 
 .footer {
@@ -838,10 +829,6 @@ label {
 
 .list-link__image {
   display: block;
-}
-
-.ist-link-hp {
-  padding: 20px 0;
 }
 
 .hero-portfolio {
