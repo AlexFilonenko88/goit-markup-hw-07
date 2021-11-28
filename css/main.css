@@ -1395,14 +1395,6 @@ label {
   fill: #ffffff;
 }
 
-.teams-footer__link {
-  margin-right: 10px;
-}
-
-.teams-footer__link:last-child {
-  margin-right: 0;
-}
-
 .teams-link__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1416,6 +1408,14 @@ label {
   list-style: none;
   margin: 16px 0 0 0;
   padding: 0;
+}
+
+.teams-footer__link {
+  margin-right: 10px;
+}
+
+.teams-footer__link:last-child {
+  margin-right: 0;
 }
 
 .teams-list {
