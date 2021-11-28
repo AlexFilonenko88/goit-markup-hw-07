@@ -1,17 +1,17 @@
 .works {
   margin-top: 0;
   padding-bottom: 94px;
+}
 
-  &-title {
-    margin-bottom: 50px;
+.works-title {
+  margin-bottom: 50px;
 
-    margin-top: 0;
+  margin-top: 0;
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-  }
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .list-works,
@@ -30,29 +30,29 @@
 
 .list-works__image {
   position: relative;
+}
 
-  &__image:last-child {
-    margin-right: 0;
-  }
+.list-works__image__image:last-child {
+  margin-right: 0;
+}
 
-  &__wrapper {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    bottom: 0;
-    background-color: rgba(47, 48, 58, 0.8);
-  }
+.list-works__image__wrapper {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 
-  &__title {
-    color: $primary-white-color;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 0.87;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 27px 0;
-  }
+.list-works__image__title {
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.87;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 27px 0;
 }
 
 .works-image__wrapper {

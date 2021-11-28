@@ -330,19 +330,11 @@ label {
   margin-bottom: 0;
 }
 
-.header-site__navigation:last-child {
-  margin-right: 0;
-}
-
 .header-site__navigation .header-site__link:hover {
   color: #2196f3;
 }
 
 .header-site__navigation .header-site__link:focus {
-  color: #2196f3;
-}
-
-.header-site__navigation .header-site__link.current-header {
   color: #2196f3;
 }
 
@@ -354,6 +346,10 @@ label {
   color: #2196f3;
 }
 
+.header-site__navigation:last-child {
+  margin-right: 0;
+}
+
 .header-site__navigation .header-site__link--navigation {
   text-decoration: none;
   color: #757575;
@@ -363,6 +359,10 @@ label {
   list-style: none;
   padding-top: 50px;
   padding-bottom: 94px;
+}
+
+.header-site__navigation .header-site__link.current-header {
+  color: #2196f3;
 }
 
 .hero-title {
@@ -385,16 +385,13 @@ label {
 }
 
 .header-site__link {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-site__link {
   text-decoration: none;
   color: #212121;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-site__link--navigation {
@@ -712,7 +709,7 @@ label {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-img.jpg");
 }
 
-.hero -title {
+.hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
   font-weight: 900;
@@ -786,8 +783,8 @@ label {
   padding: 94px 0;
 }
 
-.offers .offers,
-.offers .works {
+.offers,
+.works {
   background-color: #ffffff;
 }
 
@@ -935,6 +932,14 @@ label {
   padding-bottom: 94px;
 }
 
+.customers-link:hover {
+  border: 1px solid #2196f3;
+}
+
+.customers-link:focus {
+  border: 1px solid #2196f3;
+}
+
 .customers-list {
   margin: 0 30px 0 0;
   width: 170px;
@@ -963,11 +968,6 @@ label {
 }
 
 .customers-link:hover,
-.customers-link:focus {
-  border: 1px solid #2196f3;
-}
-
-.customers-link:hover,
 .customers-link:focus,
 .customers-list__icon:hover,
 .customers-list__icon:focus {
@@ -978,6 +978,14 @@ label {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-button:hover {
+  background-color: #188ce8;
+}
+
+.footer-button:focus {
+  background-color: #188ce8;
 }
 
 .footer-address {
@@ -1061,14 +1069,6 @@ label {
       -ms-flex-align: center;
           align-items: center;
   width: 200px;
-}
-
-.footer-button:hover {
-  background-color: #188ce8;
-}
-
-.footer-button:focus {
-  background-color: #188ce8;
 }
 
 .footer-input {

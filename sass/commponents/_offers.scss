@@ -21,10 +21,10 @@
 .offers-list__navigation {
   margin-right: 30px;
   width: 270px;
+}
 
-  &:last-child {
-    margin-right: 0;
-  }
+.offers-list__navigation:last-child {
+  margin-right: 0;
 }
 
 .offers-icon__list {
@@ -44,12 +44,13 @@
   padding: 0;
   list-style: none;
 }
+
 .offers {
   margin-bottom: 0;
   padding: 94px 0;
+}
 
-  .offers,
-  .works {
-    background-color: $primary-white-color;
-  }
+.offers,
+.works {
+  background-color: $primary-white-color;
 }
